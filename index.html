@@ -2,34 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,user-scalable=no">
-    <title>cinema</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <meta name="viewport" content='width=device-width initial-scale=1'>
+        <meta name='mobile-wed-app-capeble' content='yes'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel='stylesheet' href='css/estilos.css'>
+        <script src='js/bootstrap.min.js'></script>
+    <title>Cinema</title>
   </head>
-  <body>
-    <header class="container" style="background-color:gray">
-      <h1>Este es el titulo</h1>
+  <body class='cinema-body'>
+    <header>
+      <nav class='navbar navbar-inverse navbar-fixed-top affix-top'></nav>
     </header>
-    <section>
-      <div class="row">
-        <div class="col-lg-4" style="background-color:yellow">columna 1</div>
-        <div class="col-lg-4" style="background-color:blue">columna 2</div>
-        <div class="col-lg-4" style="background-color:green">columna 3</div>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='jumbotron'></div>
+        <div class='titulo-cartelera'></div>
       </div>
-    </section>
-    <section>
-      <div class="row">
-        <div class="col-lg-4" style="background-color:yellow">columna 1</div>
-        <div class="col-lg-4" style="background-color:blue">columna 2</div>
-        <div class="col-lg-4" style="background-color:green">columna 3</div>
+        <div class='row movies-row'>
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+          <div class='col-xs-3 col-sm-3 col-md-2 col-lg-2 movies-column text-center'></div>
+          <div class='col-md-2 col-lg-2 movies-column text-center right-column'></div>
+          <div class='col-md-2 col-lg-2 movies-column text-center right-column'></div>
       </div>
-    </section>
-    <section>
-      <div class="row">
-        <div class="col-xs-4" style="background-color:red">columna 1</div>
-        <div class="col-xs-4" style="background-color:yellow">columna 2</div>
-        <div class="col-xs-4" style="background-color:blue">columna 3</div>
-      </div>
-    </section>
+    </div>
   </body>
 </html>
